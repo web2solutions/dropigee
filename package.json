@@ -1,0 +1,39 @@
+{
+  "name": "dropigee",
+  "version": "0.0.1",
+  "description": "dropigee.js",
+  "main": "index.js",
+  "keywords": [
+    "dropigee",
+    "big",
+    "data"
+  ],
+  "scripts": {
+    "test": "mocha test/t.js"
+  },
+  "author": "Dropigee",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "node-rest-client": "^1.5.1",
+    "request": "^2.65.0"
+  },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.10.x"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dropigee/dropigee.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dropigee/dropigee.js/issues"
+  },
+  "homepage": "https://github.com/dropigee/dropigee.js#readme"
+}
